@@ -70,7 +70,9 @@ def plot_results(normal_history, cancer_history, critical_limit):
     plt.ylabel("Telomere length (bp)")
     plt.legend()
     plt.grid(True)
-    plt.show()
+    plt.tight_layout()
+plt.savefig("results.png", dpi=150)
+plt.show()
 
 
 if __name__ == "__main__":
