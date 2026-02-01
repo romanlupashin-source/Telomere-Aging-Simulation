@@ -37,6 +37,15 @@ The script produces a comparative plot showing:
 
 ---
 
+## Simulation Result
+
+The figure below shows mean telomere length trajectories with
+interquartile ranges (IQR) across multiple simulation runs.
+
+![Telomere aging simulation result](results.png)
+
+---
+
 ## Technologies Used
 
 - Python 3.9+
