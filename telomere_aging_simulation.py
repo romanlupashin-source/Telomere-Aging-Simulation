@@ -71,8 +71,8 @@ def plot_results(normal_history, cancer_history, critical_limit):
     plt.legend()
     plt.grid(True)
     plt.tight_layout()
-plt.savefig("results.png", dpi=150)
-plt.show()
+    plt.savefig("results.png", dpi=150)
+    plt.show()
 
 
 if __name__ == "__main__":
